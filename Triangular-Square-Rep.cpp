@@ -112,7 +112,7 @@ void Compute(vector<int> A, int module, int residueSquare, int residueTriangular
 		outMessaget += to_string(A[i]);
 		if (i < A.size() - 1){outMessageN += ", "; outMessaget += ", ";}
 		else { outMessageN += "; "; outMessaget += "; "; }
-	}//Êä³ö×Ö·û´®´¦Àí
+	}//ÃŠÃ¤Â³Ã¶Ã—Ã–Â·Ã»Â´Â®Â´Â¦Ã€Ã­
 
 	int* reps;
 	for(int isq = residueSquare, itr = residueTriangular,i=0;i<100;i++,isq+=module,itr+=module)
